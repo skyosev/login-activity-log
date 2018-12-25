@@ -1,0 +1,11 @@
+build
+composer.lock
+vendor
+tests/temp
+.idea
+.vscode
+.vagrant
+npm-debug.log
+yarn-error.log
+.phpunit.result.cache
+.phpstorm.meta.php

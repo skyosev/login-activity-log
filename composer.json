@@ -1,0 +1,33 @@
+{
+    "name": "skyosev/login-activity-log",
+    "description": "Track users login activity for Laravel 5.5+",
+    "keywords": ["login activity log", "Laravel 5 login activity"],
+    "homepage": "https://github.com/skyosev/login-activity",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Stoyan Kyosev",
+            "email": "stoyankyosev@gmail.com"
+        }	,
+        {
+            "name": "Ognyana Ivanova",
+            "email": "ognyana.ivanova.88@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Kiva\\LoginActivity\\" : "src"
+        }
+    },
+    "require": {
+        "php" : ">=7.2",
+        "laravel/framework": "~5.5.0|~5.6.0|~5.7.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Kiva\\LoginActivity\\LoginActivityServiceProvider"
+            ]
+        }
+    }	
+}
